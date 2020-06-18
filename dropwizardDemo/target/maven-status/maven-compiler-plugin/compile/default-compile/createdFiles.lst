@@ -1,0 +1,15 @@
+com/flipcard/model/User.class
+com/flipcard/dao/StudentDao.class
+com/flipcard/model/Registration.class
+com/flipcard/model/Student.class
+com/flipcard/dao/CourseCatalogDao.class
+com/flipcard/dao/UserDao.class
+com/flipcard/dao/RegisterCourseDao.class
+com/flipcard/utils/DBUtil.class
+com/flipcard/constant/SQLConstantQueries.class
+com/flipcard/model/Course.class
+com/flipcard/service/AdminService.class
+com/flipcard/dao/ProfessorDao.class
+com/flipcard/demo/App.class
+com/flipcard/rest/AdminController.class
+com/flipcard/model/Professor.class

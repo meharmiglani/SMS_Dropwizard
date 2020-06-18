@@ -1,0 +1,15 @@
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/model/Student.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/model/Course.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/service/AdminService.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/constant/SQLConstantQueries.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/dao/ProfessorDao.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/dao/StudentDao.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/model/User.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/utils/DBUtil.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/demo/App.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/dao/UserDao.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/model/Professor.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/dao/RegisterCourseDao.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/model/Registration.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/rest/AdminController.java
+/Users/meharkaur/Desktop/REST_Dropwizard/dropwizardDemo/src/main/java/com/flipcard/dao/CourseCatalogDao.java
