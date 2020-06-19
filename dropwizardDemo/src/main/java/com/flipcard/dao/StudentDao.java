@@ -8,7 +8,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.flipcard.constant.SQLConstantQueries;
 import com.flipcard.model.Course;
@@ -18,8 +19,8 @@ import com.flipcard.model.User;
 import com.flipcard.utils.DBUtil;
 
 public class StudentDao{
-	private static final Logger logger = Logger.getLogger(StudentDao.class);
-    private static final RegisterCourseDao registerCourseDao = new RegisterCourseDao();
+	private static final Logger logger = LoggerFactory.getLogger(StudentDao.class);    
+	private static final RegisterCourseDao registerCourseDao = new RegisterCourseDao();
 	
 	public List<Student> viewAllStudents() {
         Connection conn = DBUtil.getConnection();

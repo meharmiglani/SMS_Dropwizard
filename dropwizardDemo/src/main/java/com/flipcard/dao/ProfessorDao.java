@@ -7,7 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.flipcard.constant.SQLConstantQueries;
 import com.flipcard.model.Professor;
@@ -15,7 +16,7 @@ import com.flipcard.utils.DBUtil;
 
 //Performs all CRUD operations on a professor
 public class ProfessorDao{
-    private final static Logger logger = Logger.getLogger(ProfessorDao.class);
+	private static final Logger logger = LoggerFactory.getLogger(ProfessorDao.class);
 
     //Creates a new professor
     public boolean insertProfessor(Professor professor){

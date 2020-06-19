@@ -5,13 +5,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.flipcard.constant.SQLConstantQueries;
 import com.flipcard.utils.DBUtil;
 
 public class RegisterCourseDao{
-	private static final Logger logger = Logger.getLogger(RegisterCourseDao.class);
+	private static final Logger logger = LoggerFactory.getLogger(RegisterCourseDao.class);
 
 	public boolean addCourse(int studentId, String studentName, int courseId) {
         Connection conn = DBUtil.getConnection();
